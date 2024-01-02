@@ -14,14 +14,14 @@ function Charactersticks() {
         <div className={`d-flex justify-content-between flex-wrap w-75 mt-5 ${styles.flex__container}`}>
           {characterSticksData?.map((item, i) => {
             return (
-              <>
+              
                 <StackCard
                 key={i}
-                  imgsrc={item.img_src}
-                  content={item.content}
-                  title={item.title}
+                img_src={item?.img_src}
+                  content={item?.content}
+                  title={item?.title}
                 />
-              </>
+              
             );
           })}
         </div>
