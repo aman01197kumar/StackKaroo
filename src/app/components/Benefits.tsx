@@ -18,7 +18,7 @@ function Benefits() {
         header="Benefits of Choosing Stackkaroo for Hiring Talents"
         subHeader="Benefits of Choosing Stackkaroo for Hiring Talents"
       />
-      <div className="d-flex justify-content-between flex-wrap w-75">
+      <div className="d-flex justify-content-between flex-wrap w-75 mt-5">
         {benefitData?.map((item) => {
           return (
             <div
