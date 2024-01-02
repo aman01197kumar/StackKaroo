@@ -2,11 +2,12 @@ import React from "react";
 import Card from "@mui/material/Card";
 import Image from "next/image";
 import styles from "../styles/card.module.scss";
+import { StaticImageData } from "next/image"
 
 interface characterStickProp {
-  img_src: string;
+  img_src: StaticImageData;
   content: String;
-  title: String;
+  title: string;
 }
 
 const StackCard: React.FC<characterStickProp> = ({

@@ -16,7 +16,7 @@ function Pricing() {
             <>
               <StackCard
                 key={i}
-                imgsrc={item.img_src}
+                img_src={item.img_src}
                 content={item.content}
                 title={item.title}
               />
